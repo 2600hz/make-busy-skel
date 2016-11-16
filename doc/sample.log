@@ -1,0 +1,148 @@
+TAP version 13
+2016-11-16 18:16:48 [DEBUG] Use existing Kazoo Makebusy config
+2016-11-16 18:16:49 [DEBUG] create gateway for device id: 92cddfe0bbb60bb9b1c4b7bc0ef9ed2a
+2016-11-16 18:16:49 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:49 [DEBUG] fs auth: auth ClueCon
+2016-11-16 18:16:49 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:49 [DEBUG] fs auth: events plain all
+2016-11-16 18:16:49 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:49 [DEBUG] create gateway for device id: 81fbf43e1db5ecf6b29a39406ccb134d
+2016-11-16 18:16:49 [DEBUG] cache add kazoo device name:Device 1 to account:BS DeviceTestCase 1, device id:92cddfe0bbb60bb9b1c4b7bc0ef9ed2a
+2016-11-16 18:16:49 [DEBUG] cache add kazoo device name:Device 2 to account:BS DeviceTestCase 1, device id:81fbf43e1db5ecf6b29a39406ccb134d
+ok 1 - KazooTests\Applications\Callflow\Call::testSomethingElse
+2016-11-16 18:16:49 [DEBUG] fs auth: bgapi originate {origination_uuid=BS-DEVICE-Ytlk9c6L-1}sofia/gateway/92cddfe0bbb60bb9b1c4b7bc0ef9ed2a/1002@kamailio.kazoo &park 
+2016-11-16 18:16:49 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:49 [DEBUG] fs auth wait outbound channel header:Unique-ID value:BS-DEVICE-Ytlk9c6L-1 for 5 seconds
+2016-11-16 18:16:49 [DEBUG] fs auth incoming: CHANNEL_OUTGOING
+2016-11-16 18:16:49 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:49 [DEBUG] fs auth incoming: CHANNEL_CREATE
+2016-11-16 18:16:49 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 is new outbound
+2016-11-16 18:16:49 [DEBUG] fs auth incoming: CHANNEL_ORIGINATE
+2016-11-16 18:16:49 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:49 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:49 [DEBUG] fs auth new outbound channel header:Unique-ID value:BS-DEVICE-Ytlk9c6L-1
+2016-11-16 18:16:49 [DEBUG] fs auth wait inbound channel header:Caller-Destination-Number value:device_2 for 5 seconds
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_CREATE
+2016-11-16 18:16:50 [DEBUG] channel:c52fc6f1-80e0-4701-8274-b14bcb7a301a is new inbound
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_CALLSTATE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: PRESENCE_IN
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_EXECUTE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_PARK
+2016-11-16 18:16:50 [DEBUG] found expected channel with call-id c52fc6f1-80e0-4701-8274-b14bcb7a301a
+2016-11-16 18:16:50 [DEBUG] fs auth new inbound channel header:Caller-Destination-Number value:device_2
+2016-11-16 18:16:50 [DEBUG] channel:c52fc6f1-80e0-4701-8274-b14bcb7a301a attemptinng answer
+2016-11-16 18:16:50 [DEBUG] fs auth: api uuid_answer c52fc6f1-80e0-4701-8274-b14bcb7a301a 
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:50 [DEBUG] channel:c52fc6f1-80e0-4701-8274-b14bcb7a301a waiting for answer for 5 seconds
+2016-11-16 18:16:50 [DEBUG] channel:c52fc6f1-80e0-4701-8274-b14bcb7a301a wait event name:CHANNEL_ANSWER for 5 seconds
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CODEC
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CODEC
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_PROGRESS_MEDIA
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_CALLSTATE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_ANSWER
+2016-11-16 18:16:50 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 waiting for answer for 5 seconds
+2016-11-16 18:16:50 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 wait event name:CHANNEL_ANSWER for 5 seconds
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: PRESENCE_IN
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_CALLSTATE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: API
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CODEC
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CODEC
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_ANSWER
+2016-11-16 18:16:50 [INFO] call c52fc6f1-80e0-4701-8274-b14bcb7a301a has answered call BS-DEVICE-Ytlk9c6L-1
+2016-11-16 18:16:50 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 waiting for answer for 5 seconds
+2016-11-16 18:16:50 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 wait event name:CHANNEL_PARK for 5 seconds
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_CALLSTATE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CALL_UPDATE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: API
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: BACKGROUND_JOB
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_EXECUTE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_PARK
+2016-11-16 18:16:50 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 attempting to play tone_stream:tone_stream://%(3000,0,1600);loops=5
+2016-11-16 18:16:50 [DEBUG] fs auth: sendmsg BS-DEVICE-Ytlk9c6L-1
+call-command: execute
+execute-app-name: playback
+execute-app-arg: tone_stream://%(3000,0,1600);loops=5
+
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:50 [DEBUG] channel:c52fc6f1-80e0-4701-8274-b14bcb7a301a waiting for tone:1600 detection for:5 seconds
+2016-11-16 18:16:50 [DEBUG] fs auth: api spandsp_start_tone_detect c52fc6f1-80e0-4701-8274-b14bcb7a301a 1600 
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:50 [DEBUG] channel:c52fc6f1-80e0-4701-8274-b14bcb7a301a wait event name:DETECTED_TONE for 5 seconds
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: MEDIA_BUG_START
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: API
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: CHANNEL_EXECUTE
+2016-11-16 18:16:50 [DEBUG] fs auth incoming: PLAYBACK_START
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: DETECTED_TONE
+2016-11-16 18:16:51 [DEBUG] channel:c52fc6f1-80e0-4701-8274-b14bcb7a301a detected tone 1600
+2016-11-16 18:16:51 [DEBUG] fs auth: api spandsp_stop_tone_detect c52fc6f1-80e0-4701-8274-b14bcb7a301a 
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:51 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 attempting break
+2016-11-16 18:16:51 [DEBUG] fs auth: api uuid_break BS-DEVICE-Ytlk9c6L-1 
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: MEDIA_BUG_STOP
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: API
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:51 [DEBUG] channel:c52fc6f1-80e0-4701-8274-b14bcb7a301a attempting to play tone_stream:tone_stream://%(3000,0,600);loops=5
+2016-11-16 18:16:51 [DEBUG] fs auth: sendmsg c52fc6f1-80e0-4701-8274-b14bcb7a301a
+call-command: execute
+execute-app-name: playback
+execute-app-arg: tone_stream://%(3000,0,600);loops=5
+
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: API
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:51 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 waiting for tone:600 detection for:5 seconds
+2016-11-16 18:16:51 [DEBUG] fs auth: api spandsp_start_tone_detect BS-DEVICE-Ytlk9c6L-1 600 
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:51 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 wait event name:DETECTED_TONE for 5 seconds
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: MEDIA_BUG_START
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: API
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: PLAYBACK_STOP
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_EXECUTE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_EXECUTE_COMPLETE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: PRIVATE_COMMAND
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: PLAYBACK_START
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: DETECTED_TONE
+2016-11-16 18:16:51 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 detected tone 600
+2016-11-16 18:16:51 [DEBUG] fs auth: api spandsp_stop_tone_detect BS-DEVICE-Ytlk9c6L-1 
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:51 [DEBUG] channel:c52fc6f1-80e0-4701-8274-b14bcb7a301a attempting break
+2016-11-16 18:16:51 [DEBUG] fs auth: api uuid_break c52fc6f1-80e0-4701-8274-b14bcb7a301a 
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: MEDIA_BUG_STOP
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: API
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:51 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 attempting hangup
+2016-11-16 18:16:51 [DEBUG] fs auth: api uuid_kill BS-DEVICE-Ytlk9c6L-1 
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: API
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: COMMAND
+2016-11-16 18:16:51 [DEBUG] channel:BS-DEVICE-Ytlk9c6L-1 wait event name:CHANNEL_DESTROY for 10 seconds
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_HANGUP
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: API
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_UNPARK
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: PLAYBACK_STOP
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_EXECUTE_COMPLETE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_EXECUTE_COMPLETE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: PRIVATE_COMMAND
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_CALLSTATE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_HANGUP_COMPLETE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_DESTROY
+2016-11-16 18:16:51 [DEBUG] destroying channel BS-DEVICE-Ytlk9c6L-1
+2016-11-16 18:16:51 [DEBUG] channel:c52fc6f1-80e0-4701-8274-b14bcb7a301a wait event name:CHANNEL_DESTROY for 10 seconds
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_HANGUP
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_UNPARK
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_EXECUTE_COMPLETE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_CALLSTATE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: PRESENCE_IN
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_STATE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_HANGUP_COMPLETE
+2016-11-16 18:16:51 [DEBUG] fs auth incoming: CHANNEL_DESTROY
+2016-11-16 18:16:51 [DEBUG] destroying channel c52fc6f1-80e0-4701-8274-b14bcb7a301a
+ok 2 - KazooTests\Applications\Callflow\Call::testMain with data set #0 ('kamailio.kazoo')
+1..2

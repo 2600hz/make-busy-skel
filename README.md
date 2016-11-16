@@ -2,7 +2,7 @@
 
 ## Test cases for Kazoo MakeBusy
 
-Please see [MakeBusy](https://github.com/2600hz/make-busy) how to write tests.
+Please see [MakeBusy](https://github.com/2600hz/make-busy) how to write tests and to run it as docker images.
 
 ## Run tests with docker image
 
